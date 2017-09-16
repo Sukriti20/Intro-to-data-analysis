@@ -16,8 +16,8 @@ import unicodecsv
     enrollments = list(reader)'''
     
 
-engagement_filename = '/datasets/ud170/udacity-students/daily_engagement.csv'
-submissions_filename = '/datasets/ud170/udacity-students/project_submissions.csv'
+engagement_filename = 'datasets/daily_engagement.csv'
+submissions_filename = 'datasets/project_submissions.csv'
 
 engagement_list = []
 with open(engagement_filename,'rb') as f:
